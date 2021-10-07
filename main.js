@@ -151,7 +151,7 @@ function updateReportCard(reportCard, grade) {
     }
     return reportCard
 }
-console.log(updateReportCard(reportCard, 100))
+// console.log(updateReportCard(reportCard, 100))
 
 
 
