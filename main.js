@@ -59,18 +59,7 @@ const car2 = {
     needsMaitenance: false
 }
 function getDataType(obj, key) {
-    if(key === "make") {
-        return typeof "string"
-    }
-    if(key === "model") {
-        return typeof "string"
-    }
-    if(key === "year") {
-        return typeof 0
-    }
-    if(key === "needsMaitenance") {
-        return typeof true
-    }
+    return typeof obj[key]
 }
 // console.log(getDataType(car2, "make"))
 // console.log(getDataType(car2, "model"))
