@@ -69,7 +69,8 @@ function getDataType(obj, key) {
 const todos = [
     { 
         title: 'Get gas', 
-        isComplete: false },
+        isComplete: false
+    },
     { 
         title: 'Buy bread', 
         isComplete: true  
